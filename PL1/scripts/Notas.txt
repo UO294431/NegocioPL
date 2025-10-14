@@ -1,0 +1,11 @@
+Opcional 5
+Eliminar primero las filas que tengan valores perdiddos en Exited. 
+Depues el resultado de eso, no habra valores perdidos ahi, pero en otras puede que si. 
+Como el resto son las X, se puede usar cualquier tipo de imputacion de las vistas en teoria
+Se puede hacer eliminando las filas con valores perdidos como en el 1
+
+Opcional 6
+Aqui si hacemos lo de antes
+
+Opcional 7
+Esta literal en el notebook MaterialTeoria2.zip 
