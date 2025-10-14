@@ -1,0 +1,8 @@
+
+
+Eliminacion recursiva de variables
+Alternativa: SelectKBest y probar con k hasta que haya poco error 
+
+grid = {algo1 : [ej1, ej2, ej3], algo2 : [1, 10]} -> Hace todas las combinaciones posibles
+svc = SVC()
+grid_search = GridSearchCV(estimator=svc, param_grid=grid, cv=5)
