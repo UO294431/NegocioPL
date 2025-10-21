@@ -6,3 +6,6 @@ Alternativa: SelectKBest y probar con k hasta que haya poco error
 grid = {algo1 : [ej1, ej2, ej3], algo2 : [1, 10]} -> Hace todas las combinaciones posibles
 svc = SVC()
 grid_search = GridSearchCV(estimator=svc, param_grid=grid, cv=5)
+
+Parte 5 opcional: Usar cross_val_predict para tener la prediccion en cada instancia,
+cuando esa instancia esta en el test y no en el train, Como rror, la diff en val abs
