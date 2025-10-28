@@ -27,7 +27,7 @@ X = scaler.fit_transform(X)
 # Apartado 3
 COL_Y = "EstimatedSalary"
 Y = df[COL_Y]
-'''
+
 # Apartado 4
 lin = LinearRegression()
 lin.fit(X,Y)
@@ -61,7 +61,7 @@ r2
 print("RFR MSE=",mse)
 print("RFR score=",-score)
 print("RFR R2=",r2)
-'''
+
 
 # Apartado 5
 COLS_XC = ['CreditScore','Age','Tenure','Balance','NumOfProducts','HasCrCard','IsActiveMember']

@@ -1,0 +1,10 @@
+Hay datasets de ejemplo que NO PUEDEN APARECER EN EL SCRIPT
+ - Rollo suizo -> grafico como en rollo
+ - La caja
+
+# Swiss roll
+La última columna no se utiliza para las proyecciones, solo para pintar
+
+Ajustar el LLE -> proyectar los putnos
+    Si se calcula se puede mirar las distancias, ya que en la proyección y en el original deberian coincidir
+    (Si esta perfecto)
