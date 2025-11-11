@@ -75,7 +75,7 @@ print(raw_df.columns)
 print(X_full.shape)
 print(Y.shape)
 # Se elige la variable mas dependiente de la salida
-selector = SelectKBest(f_regression, k=1)
+selector = SelectKBest(f_regression, k=1) # Cambiar k para variar numero de variables
 selector.fit(X_full, Y)
 X = X_full[:, selector.get_support()]
 
